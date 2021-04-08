@@ -11,7 +11,7 @@ Info file name: C:\Users\Angel\Desktop\MASK\mask\pos.lst
 Img file name: (NULL)
 Vec file name: C:\Users\Angel\Desktop\MASK\mask\pos_samples.vec
 BG  file name: (NULL)
-Num: 61
+Num: 41
 BG color: 0
 BG threshold: 80
 Invert: FALSE
@@ -24,7 +24,7 @@ Width: 38
 Height: 46
 Max Scale: -1
 Create training samples from images collection...
-Done. Created 61 samples
+Done. Created 41 samples
 
 **************************************************
 ************* TRAINING CLASSIFIER ****************
@@ -35,7 +35,7 @@ cascadeDirName: C:\Users\Angel\Desktop\MASK\mask\classifier
 vecFileName: C:\Users\Angel\Desktop\MASK\mask\pos_samples.vec
 bgFileName: C:\Users\Angel\Desktop\MASK\mask\neg.lst
 
-numPos: 36
+numPos: 24
 numNeg: 60
 numStages: 20
 precalcValBufSize[Mb] : 1024
@@ -81,19 +81,7 @@ POS current samples: 21
 POS current samples: 22
 POS current samples: 23
 POS current samples: 24
-POS current samples: 25
-POS current samples: 26
-POS current samples: 27
-POS current samples: 28
-POS current samples: 29
-POS current samples: 30
-POS current samples: 31
-POS current samples: 32
-POS current samples: 33
-POS current samples: 34
-POS current samples: 35
-POS current samples: 36
-POS count : consumed   36 : 36
+POS count : consumed   24 : 24
 
 NEG current samples: 1
 NEG current samples: 2
@@ -157,7 +145,7 @@ NEG current samples: 59
 NEG current samples: 60
 NEG count : acceptanceRatio    60 : 1
 
-Precalculation time: 1.895
+Precalculation time: 1.627
 
 +----+---------+---------+
 |  N |    HR   |    FA   |
@@ -196,19 +184,7 @@ POS current samples: 21
 POS current samples: 22
 POS current samples: 23
 POS current samples: 24
-POS current samples: 25
-POS current samples: 26
-POS current samples: 27
-POS current samples: 28
-POS current samples: 29
-POS current samples: 30
-POS current samples: 31
-POS current samples: 32
-POS current samples: 33
-POS current samples: 34
-POS current samples: 35
-POS current samples: 36
-POS count : consumed   36 : 36
+POS count : consumed   24 : 24
 
 NEG count : acceptanceRatio    0 : 0
 Required leaf false alarm rate achieved. Branch training terminated.
