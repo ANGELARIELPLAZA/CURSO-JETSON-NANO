@@ -7,14 +7,14 @@ dispH=480
 flip=0
 
  
-Datos = 'p'
+Datos = 'n'
 if not os.path.exists(Datos):
 	print('Carpeta creada: ', Datos)
 	os.makedirs(Datos)
     
 #Uncomment These next Two Line for Pi Camera
 camSet='nvarguscamerasrc !  video/x-raw(memory:NVMM), width=3264, height=2464, format=NV12, framerate=21/1 ! nvvidconv flip-method='+str(flip)+' ! video/x-raw, width='+str(dispW)+', height='+str(dispH)+', format=BGRx ! videoconvert ! video/x-raw, format=BGR ! appsink'
-cap= cv2.VideoCapture(camSet)
+cap= cv2.VideoCapture(-1)
 
 x1, y1 = 190, 80
 x2, y2 = 450, 398

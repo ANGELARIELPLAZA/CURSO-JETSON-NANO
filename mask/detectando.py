@@ -1,7 +1,7 @@
 import cv2
 
-dispW=640
-dispH=480
+dispW=320
+dispH=240
 flip=0
 
      
@@ -10,7 +10,7 @@ camSet='nvarguscamerasrc !  video/x-raw(memory:NVMM), width=3264, height=2464, f
 cap= cv2.VideoCapture(camSet)
 
 
-majinBooClassif = cv2.CascadeClassifier('cascade.xml')
+majinBooClassif = cv2.CascadeClassifier('/home/nano/MASK/mask/classifier/cascade.xml')
 
 while True:
 	
@@ -28,7 +28,7 @@ while True:
 
 	cv2.imshow('frame',frame)
 	
-	if cv2.waitKey(1) == 27:
+	if cv2.waitKey(1) == ord('q'):
 		break
 cap.release()
 cv2.destroyAllWindows()
