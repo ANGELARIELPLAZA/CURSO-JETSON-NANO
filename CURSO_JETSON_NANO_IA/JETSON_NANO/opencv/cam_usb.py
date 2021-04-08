@@ -9,7 +9,7 @@ flip=0
  
 #Or, if you have a WEB cam, uncomment the next line
 #(If it does not work, try setting to '1' instead of '0')
-cam=cv2.VideoCapture(-1)
+cam=cv2.VideoCapture(1)
 while True:
     ret, frame = cam.read()
     cv2.imshow('nanoCam',frame)
